@@ -1,6 +1,6 @@
 # dotfiles
 
-pacman -S git foot neofetch nnn
+pacman -S git foot neofetch
 
 # YAY
 git clone https://aur.archlinux.org/yay.git 
@@ -17,3 +17,8 @@ set -U fish_greeting
 sudo nano /etc/pacman.conf
 
 Color (uncomment)
+
+# Music On Spotify
+
+pacman -S spotifyd
+yay spotify-tui
