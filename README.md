@@ -21,6 +21,7 @@ Color (uncomment)
 # Icon's & Cursor's
 
 Скопировать все файлы с заменой из папки репозитория icons в папку .icons
+
 распаковать в папку .icons архив Vector-Icons
 
 pacman -S gnome-tweaks
