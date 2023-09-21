@@ -17,11 +17,3 @@ set -U fish_greeting
 sudo nano /etc/pacman.conf
 
 Color (uncomment)
-
-# Music On Spotify
-
-pacman -S spotifyd
-
-yay spotify-tui
-
-systemctl --user enable spotifyd.service --now
