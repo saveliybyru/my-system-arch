@@ -1,6 +1,6 @@
 # dotfiles
 
-pacman -S git foot neofetch
+pacman -S git foot neofetch micro wl-clipboard xdg-utils mailcap
 
 # YAY
 git clone https://aur.archlinux.org/yay.git 
