@@ -18,6 +18,14 @@ sudo nano /etc/pacman.conf
 
 Color (uncomment)
 
+# Bluetooth
+
+pacman -S bluez bluez-utils bluez-libs btusb blueman
+
+systemctl enable bluetooth.service
+
+systemctl start bluetooth.service
+
 # Icon's & Cursor's
 
 Скопировать все файлы с заменой из папки репозитория icons в папку .icons
