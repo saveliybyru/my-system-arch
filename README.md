@@ -1,16 +1,9 @@
-# dotfiles
-
-pacman -S git foot neofetch micro wl-clipboard xdg-utils mailcap
+# Simple Install System
 
 # YAY
 git clone https://aur.archlinux.org/yay.git 
 cd yay  
 makepkg -si 
-
-# FISH
-pacman -S fish
-chsh -s /usr/bin/fish
-set -U fish_greeting
 
 Скопировать все файлы с заменой из папки репозитория config  в папку .config
 
@@ -31,5 +24,3 @@ systemctl start bluetooth.service
 Скопировать все файлы с заменой из папки репозитория icons в папку .icons
 
 распаковать в папку .icons архив Vector-Icons
-
-pacman -S gnome-tweaks
