@@ -4,6 +4,7 @@ code
 evince
 firefox
 foot
+fzf
 gdm
 gnome-backgrounds
 gnome-boxes
@@ -25,6 +26,8 @@ libreoffice-still
 linux
 linux-firmware
 loupe
+man-db
+man-pages
 micro
 nautilus
 neofetch

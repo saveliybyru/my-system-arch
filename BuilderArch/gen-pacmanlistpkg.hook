@@ -6,4 +6,4 @@ Target = *
 
 [Action]
 When = PostTransaction
-Exec = /bin/sh -c '/usr/bin/pacman -Qqen > /home/xenon/BuilderArch/builderArchGnome/pacmanpkg-list.txt'
+Exec = /bin/sh -c '/usr/bin/pacman -Qqen > /home/xenon/my-system-arch/BuilderArch/builderArchGnome/pacmanpkg-list.txt'
